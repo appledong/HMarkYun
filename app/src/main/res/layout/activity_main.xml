@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f9">
+
+
+    <HorizontalScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none"
+        >
+
+        <com.cng.zhangtu.hmarkyun.view.TagCloudView
+            android:id="@+id/tagcloud"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="12dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="18dp"
+            android:paddingTop="12dp"/>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textview_ref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shape_mark1"
+        android:gravity="center"
+        android:paddingBottom="6dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:paddingTop="6dp"
+        android:text="刷新"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:visibility="visible"/>
+
+</RelativeLayout>

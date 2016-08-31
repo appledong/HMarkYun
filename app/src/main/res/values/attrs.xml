@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LabelView">
+        <attr name="is_static" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TagCloudView">
+        <attr name="txt_min_size" format="integer"/>
+        <attr name="txt_max_size" format="integer"/>
+    </declare-styleable>
+</resources>
